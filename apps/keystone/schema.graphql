@@ -28,7 +28,7 @@ input UserWhereInput {
   NOT: [UserWhereInput!]
   id: IDFilter
   name: StringFilter
-  email: StringFilter
+  email: StringFilter`
   posts: PostManyRelationFilter
   createdAt: DateTimeNullableFilter
 }
